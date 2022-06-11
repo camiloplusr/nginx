@@ -5,8 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh
-                        sudo ip a 
+                    echo 'Building..'
                 }
             }
         }
