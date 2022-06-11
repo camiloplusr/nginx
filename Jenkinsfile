@@ -6,6 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building..'
+                    sh "docker ps -a"
                 }
             }
         }
