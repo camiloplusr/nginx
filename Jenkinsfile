@@ -8,12 +8,12 @@ pipeline {
 
                     echo 'Building..'
                     sh "sudo docker ps -a"
-                    sh "sudo cd /var/www/nginx"
-                    sh "pwd"
-                    sh "ls -lha"
-                    sh "sudo docker build -t nginx:lts ." 
-                    sh "sudo docker images" 
-                    sh "sudo docker run -d -ti --name nginx -p 80:80 nginx:lts"
+                    // sh "sudo cd /var/www/nginx"
+                    // sh "pwd"
+                    // sh "ls -lha"
+                    // sh "sudo docker build -t nginx:lts ." 
+                    // sh "sudo docker images" 
+                    // sh "sudo docker run -d -ti --name nginx -p 80:80 nginx:lts"
 
                 }
             }
