@@ -1,3 +1,3 @@
 FROM nginx:1.19-alpine
 
-ADD . /usr/share/nginx/html
+ADD ./webfiles/. /usr/share/nginx/html
